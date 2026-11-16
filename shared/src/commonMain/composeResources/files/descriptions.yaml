@@ -1,0 +1,28 @@
+# Plant descriptions, shown on each plant's page.
+#
+# Each name below is the plant's name in lowercase with underscores.
+# Its photo uses the same name in the photos folder, e.g. photos/red_huckleberry.jpg
+#
+# How to write a description: replace the "" with ">" and put the text on
+# the following lines, indented by two spaces. It can run over several lines:
+#
+#   red_huckleberry: >
+#     A deciduous shrub with bright green, angular stems.
+#     Its round red berries are edible.
+#
+# Leave a plant as "" until its description is written.
+
+red_huckleberry: >
+  A shrub with red berries and smooth, alternate, oval-shaped, green leaves that grow up to 3cm long. The red berries look similar to blueberries, and are spread out throughout the bush (not bunched together). They are about 1cm across and are edible. The stems are square-like and when touched, you can feel the angular edges. The flowers are greenish-yellow or pinkish and are bell shaped. The plant can grow up to 4 meters tall, and is found in coniferous forests at low to middle elevations. Red huckleberries often grow on dead logs or stumps.
+
+evergreen_huckleberry: >
+  A shrub with dark purple berries and toothed, alternate, oval-shaped, shiny, green leaves that are 2-5cm long. The dark purple berries look similar to blueberries but are much smaller. The berries are edible and often grow in bunches of 3-10. The flowers are pink, bell-shaped, and grow right next to the leaves. This plant is found in coniferous forests at low elevations. They are also commonly found close to tidewater. 
+
+douglas_fir: >
+  An evergreen tree with thick, rough, brown bark. The needles are 2-3cm long and are soft to the touch. Douglas fir cones start out green and then turn a reddish-brown. The cones are 5-10cm long and look like they have little mice (just the legs and tail) hiding in them. This plant is found in low and middle elevations in both wet and dry environments. Douglas fir often grows in areas where wildfires occurred. 
+
+bigleaf_maple: >
+  A deciduous tree that is often covered with mosses, lichen, or ferns. Its 5-lobed, maple-shaped leaves are large, usually about 15-30cm. The leaves grow opposite from one another. They are dark green on top and lighter below. The bark is smoother and green when the tree is younger and becomes rougher and more brown as it ages. Its small, greenish-yellow flowers are bunched together in large groups. Bigleaf maple has v-shaped, winged seeds called samaras that are 3-6cm long. 
+
+western_trillium: >
+  A short flower with 3 petals. The petals are about 5cm long and are white, as the plant ages, the petals become a pink/purple. The plant has 3 leaves that are oval with a triangular tip. Western trillium grows oval, green fruits that are full of seeds. This plant is often found in areas that are shaded or moist at low to middle elevations. 

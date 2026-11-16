@@ -1,0 +1,67 @@
+plants:
+  - name: "Red huckleberry"
+    scientific_name: "Vaccinium parvifolium"
+    traits:
+      plant_type: "shrub"
+      leaf_shape: "oval"
+      leaf_edge: "smooth"
+      leaf_arrangement: "alternate"
+      # in cm
+      leaf_size: 3
+      flower_color: ["green", "yellow", "pink"]
+      # in cm
+      flower_size: .5
+      berry_color: "red"
+      bark_stem_color: ["green", "brown"]
+      elevation: ["low", "middle"]
+
+  - name: "Evergreen huckleberry"
+    scientific_name: "Vaccinium ovatum"
+    traits:
+      plant_type: "shrub"
+      leaf_shape: "oval"
+      leaf_edge: "toothed"
+      leaf_arrangement: "alternate"
+      leaf_size: [2, 5]
+      flower_color: "pink"
+      flower_size: .8
+      berry_color: ["purple", "black", "blue"]
+      bark_stem_color: ["red", "green", "brown"]
+      elevation: "low"
+
+  - name: "Douglas fir"
+    scientific_name: "Pseudotsuga menziesii var. menziesii"
+    traits:
+      plant_type: "tree"
+      needle_length: [2, 3]
+      bark_stem_color: "brown"
+      bark_texture: "rough"
+      cone_size: [5, 10]
+      elevation: ["low", "middle"]
+
+#maybe add moss category
+  - name: "Bigleaf Maple"
+    scientific_name: "Acer macrophyllum"
+    traits:
+      plant_type: "tree"
+      leaf_shape: "maple"
+      leaf_arrangement: "opposite"
+      leaf_size: [15, 30]
+      bark_stem_color: ["grey", "brown"]
+      bark_texture: "rough"
+      flower_size: .3
+      flower_color: ["green", "yellow"]
+      elevation: ["low", "middle"]
+
+  - name: "Western Trillium"
+    scientific_name: "Trillium ovatum"
+    traits:
+      plant_type: "flower"
+      leaf_shape: "cordate"
+      leaf_arrangement: "whorl"
+      leaf_size: 18
+      flower_size: [5, 10]
+      num_petals: 3
+      flower_color: ["white", "pink", "purple"]
+      berry_color: "green"
+      elevation: [ "low", "middle" ]

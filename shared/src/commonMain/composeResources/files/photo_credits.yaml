@@ -1,0 +1,61 @@
+# Photo credits, shown under each plant's photo.
+# Each plant has a list of photos, shown in this order (the first one is the main photo).
+# To add another photo, copy a "- file:" block and use the next number, e.g. red_huckleberry_2.jpg
+
+red_huckleberry:
+  - file: "red_huckleberry_1.jpg"
+    photographer: "Sonia S"
+    license: "CC BY-NC"
+    source: "iNaturalist"
+
+evergreen_huckleberry:
+  - file: "evergreen_huckleberry_1.jpg"
+    photographer: "Ben Sims"
+    license: "Public Domain"
+    source: "iNaturalist"
+  - file: "evergreen_huckleberry_2.jpg"
+    photographer: "E Redick"
+    license: "CC BY-NC-ND"
+    source: "iNaturalist"
+  - file: "evergreen_huckleberry_3.jpg"
+    photographer: "Shea"
+    license: "CC BY-NC"
+    source: "iNaturalist"
+
+douglas_fir:
+  - file: "douglas_fir_2.jpg"
+    photographer: "Sonia S"
+    license: "CC BY-NC"
+    source: "iNaturalist"
+  - file: "douglas_fir_1.jpg"
+    photographer: "firecraftnw"
+    license: "CC BY-NC"
+    source: "iNaturalist"
+  - file: "douglas_fir_3.jpg"
+    photographer: "Andy Goerdel - Texas Master Naturalist, Good Water Chapter"
+    license: "CC BY-NC"
+    source: "iNaturalist"
+
+bigleaf_maple:
+  - file: "bigleaf_maple_3.jpg"
+    photographer: "Zoë Topshee"
+    license: "CC BY-NC"
+    source: "iNaturalist"
+  - file: "bigleaf_maple_2.jpg"
+    photographer: "doml219"
+    license: "CC BY-NC"
+    source: "iNaturalist"
+  - file: "bigleaf_maple_1.jpg"
+    photographer: "faerownwj"
+    license: "CC BY-NC"
+    source: "iNaturalist"
+
+western_trillium:
+  - file: "western_trillium_1.jpg"
+    photographer: "jayda_o26"
+    license: "CC BY-NC"
+    source: "iNaturalist"
+  - file: "western_trillium_2.jpg"
+    photographer: "guyshoffman"
+    license: "CC BY-NC"
+    source: "iNaturalist"
