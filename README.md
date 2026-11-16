@@ -1,35 +1,10 @@
-This is a Kotlin Multiplatform project targeting Android, iOS, Desktop (JVM).
+This is a Plant ID app to help users identify plants that live in Western Washington. It asks users a series of questions about their plant, and uses a vector matching algorithm to find the 3 plants that best match the users'. It also allows users to browse through plants and explore them. Each plant has its own page with a picture and a description. The app is written in Kotlin and uses Kotlin Multiplatform to work on Desktop, Android, and IOS. Currently the app is in alpha stage of development and has five plants but is planned to eventually have over 300. 
 
-* [/iosApp](./iosApp/iosApp) contains an iOS application. Even if you’re sharing your UI with Compose Multiplatform,
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+<img width="415" height="560" alt="image" src="https://github.com/user-attachments/assets/33e8fe09-ff74-4241-9ea2-ce85502bdb09" />
 
-* [/shared](./shared/src) is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - [commonMain](./shared/src/commonMain/kotlin) is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    the [iosMain](./shared/src/iosMain/kotlin) folder would be the right place for such calls.
-    Similarly, if you want to edit the Desktop (JVM) specific part, the [jvmMain](./shared/src/jvmMain/kotlin)
-    folder is the appropriate location.
+<img width="415" height="560" alt="image" src="https://github.com/user-attachments/assets/b666459b-f531-45a7-9e8b-f0a06e3ba1b6" />
 
-### Running the apps
+<img width="415" height="560" alt="image" src="https://github.com/user-attachments/assets/1e43190a-ffe6-4c52-8e2a-899e6144f7bf" />
 
-Use the run configurations provided by the run widget in your IDE's toolbar. You can also use these commands and options:
+<img width="415" height="560" alt="image" src="https://github.com/user-attachments/assets/bbf939e9-6dc5-4e04-905f-abca5a249773" />
 
-- Android app: `./gradlew :androidApp:assembleDebug`
-- Desktop app:
-  - Hot reload: `./gradlew :desktopApp:hotRun --auto`
-  - Standard run: `./gradlew :desktopApp:run`
-- iOS app: open the [/iosApp](./iosApp) directory in Xcode and run it from there.
-
-### Running tests
-
-Use the run button in your IDE's editor gutter, or run tests using Gradle tasks:
-
-- Android tests: `./gradlew :shared:testAndroidHostTest`
-- Desktop tests: `./gradlew :shared:jvmTest`
-- iOS tests: `./gradlew :shared:iosSimulatorArm64Test`
-
----
-
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
